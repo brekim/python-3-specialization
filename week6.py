@@ -28,3 +28,17 @@ print(new_identity is players)
 # Copy
 singularity = players.copy()
 print(singularity is players)
+
+# Working with accumulator dictionaries
+workout_days = {'Monday': 23, 'Tuesday': 3, 'Wednesday': 8, 'Thursday': 7, 'Friday': 44, 'Saturday': 42, 'Sunday': 2}
+
+num_days = 0
+for key in workout_days.keys():
+    num_days += workout_days[key]
+print("Number of days:", num_days)
+
+smallest_key = ""
+for key in workout_days.keys():
+    if workout_days[key] < workout_days.get(smallest_key, 9999999999999):
+        smallest_key = key
+print(smallest_key)
