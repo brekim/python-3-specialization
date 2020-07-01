@@ -23,4 +23,3 @@ with open('check.csv') as new_file:
     for line in lines:
         sp = line.split(",")
         print("{} - {}. Rating: {} K: {} D: {} ADR: {}".format(sp[0], sp[1], sp[5], sp[2], sp[3], sp[4]))
-
