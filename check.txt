@@ -1,0 +1,6 @@
+Player,Country,K,D,ADR,Rating
+NAF,Canada,64,18,87.9,1.23
+Stewie2K,United States,62,57,83.8,1.19
+EliGE,United States,60,60,76.5,1.05
+Twistzz,Canada,50,53,63.0,0.96
+nitr0,United States,45,52,58.4,0.82
