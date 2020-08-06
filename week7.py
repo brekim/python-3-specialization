@@ -1,3 +1,5 @@
+# Author: Brett Kim
+
 def hello(name, count):
     greeting = "Hello {}!\n".format(name)
     print(greeting*count)
