@@ -36,8 +36,14 @@ def double_score():
     global score
     score *= 2
 
+def triple_score():
+    global score
+    score *= 3
+
 print(score)
 double_score()
 print(score)
 double_score()
+print(score)
+triple_score()
 print(score)
