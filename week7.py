@@ -29,3 +29,15 @@ def sum_of_squares(lst):
 br = [2, 4, 6, 8]
 print(sum_of_list(br))
 print(sum_of_squares(br))
+
+score = 5
+
+def double_score():
+    global score
+    score *= 2
+
+print(score)
+double_score()
+print(score)
+double_score()
+print(score)
