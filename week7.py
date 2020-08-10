@@ -47,3 +47,10 @@ double_score()
 print(score)
 triple_score()
 print(score)
+
+# Tuple work
+teams = [("Japan", 5), ("South Korea", 8), ("Finland", 6)]
+
+print("Olympic Gold Medals")
+for country, medals in teams:
+    print(country + ": " + str(medals))
