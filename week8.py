@@ -27,3 +27,11 @@ def opt_par(x, y = 3):
     return x * y
 
 print(opt_par("Ok"))
+
+def opt_par_ii(x = 4, y = 9, z = 21):
+    return x * y / z
+
+print(opt_par_ii(z = 4))
+
+f = lambda x: x - 2
+print(f(2))
