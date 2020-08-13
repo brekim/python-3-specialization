@@ -22,3 +22,8 @@ while hp > 0:
         break
     print("HP: " + str(hp))
     print("Enemy HP: " + str(enemyHP))
+
+def opt_par(x, y = 3):
+    return x * y
+
+print(opt_par("Ok"))
