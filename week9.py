@@ -6,8 +6,8 @@ print(random_one_to_ten)
 print(sorted(random_one_to_ten))
 print(sorted(random_one_to_ten, reverse=True))
 
-letters = "alwnfiwaksuezlaeiajsdl"
-sorted_letters = sorted(letters, reverse=True)
+lett = "alwnfiwaksuezlaeiajsdl"
+sorted_letters = sorted(lett, reverse=True)
 
 animals = ['elephant', 'cat', 'moose', 'antelope', 'elk', 'rabbit', 'zebra', 'yak', 'salamander', 'deer', 'otter', 'minx', 'giraffe', 'goat', 'cow', 'tiger', 'bear']
 animals_sorted = sorted(animals)
