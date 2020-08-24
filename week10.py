@@ -31,3 +31,13 @@ malta = {'events':
 
 print(malta['events'][2019]['winner'])
 print(malta['events'][2020]['winner'])
+
+scores = [[1, 2, 3], [4, 3, 2]]
+
+for ind_scores in scores:
+    print("You can count on me, like")
+
+    for score in ind_scores:
+        print(score)
+        
+    print("I'll be there")
