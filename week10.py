@@ -41,3 +41,14 @@ for ind_scores in scores:
         print(score)
         
     print("I'll be there")
+
+scores = [1, 2, ['a', 'b', 'c'], ['d', 'e'], ['f', 'g', 'h']]
+
+for x in scores:
+    print("level1: ")
+
+    if type(x) is list:
+        for y in x:
+            print("\tlevel 2: {}".format(y))
+    else:
+        print(x)
