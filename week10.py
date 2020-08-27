@@ -1,5 +1,7 @@
 # Author - Brett Kim
 
+import copy as cp
+
 mavs = [[33, 42], [5, 1], [42, 4]]
 
 for lst in mavs:
@@ -52,3 +54,8 @@ for x in scores:
             print("\tlevel 2: {}".format(y))
     else:
         print(x)
+
+genre = [['dancehall', 'indie_pop'], ['singer_songwriter', 'aboriginal']]
+
+shallow_copy = genre[:]
+deep_copy = cp.deepcopy(shallow_copy)
