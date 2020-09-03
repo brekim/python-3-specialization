@@ -8,3 +8,14 @@ cool_dancing = map(triple, dancing)
 
 for num in cool_dancing:
     print(num)
+
+def keep_evens(x):
+    if x % 2 == 0:
+        return True
+    else:
+        return False
+
+x = filter(keep_evens, dancing)
+
+for num in x:
+    print(num)
