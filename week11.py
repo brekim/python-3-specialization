@@ -19,3 +19,9 @@ x = filter(keep_evens, dancing)
 
 for num in x:
     print(num)
+
+prancing = [1, 2, 3, 4]
+cool_dance = [value * 2 for value in prancing]
+
+for num in cool_dance:
+    print("Num: " + str(num))
